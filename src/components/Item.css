@@ -1,0 +1,26 @@
+.item {
+
+    list-style: none;
+    text-align: center;
+    background-color: rgb(50, 63, 70);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 2px;
+    box-shadow: 3px 3px rgb(35, 43, 48);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.expense {
+
+    border-right: solid 1rem red;
+
+}
+
+.income {
+
+    border-right: solid 1rem green;
+
+}

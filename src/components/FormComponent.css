@@ -1,0 +1,64 @@
+:root {
+
+    --font-color: rgb(171, 193, 204);
+    --font-color-two: rgb(123, 141, 150);
+    --background-color-one: rgb(24, 31, 34);
+
+}
+
+.form-control {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-control label {
+
+    margin: 1rem 0;
+    font-size: 1.5rem;
+
+}
+
+.form-control input {
+
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--background-color-one);
+    color: var(--font-color);
+
+}
+
+.form-control input:focus {
+
+    outline: 1px solid var(--font-color);
+
+}
+
+.form-control input::placeholder {
+
+    color: var(--font-color-two);
+
+}
+
+button {
+
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: var(--background-color-one);
+    color: var(--font-color);
+
+}
+
+button:hover {
+
+    cursor: pointer;
+    outline: 1px solid var(--font-color);
+
+}

@@ -1,0 +1,41 @@
+.main-report>h4, .main-report>h1{
+
+    text-align: center;
+
+}
+
+.report-container {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color-one);
+    margin: 15px;
+    padding: 15px 0;
+    border-radius: 3px;
+
+}
+
+.report-container>div {
+
+    flex: 1;
+    text-align: center;
+
+}
+
+.report-container div:first-child{
+
+    border-right: 2px solid var(--font-color-two);
+
+}
+
+.plus {
+
+    color: green;
+
+}
+
+.minus {
+
+    color: red;
+
+}
